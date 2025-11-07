@@ -182,8 +182,14 @@ ul {
   height: 50px;
   width: auto;
 }
+.footer-col.footer-app-links {
+  flex: 0 0 300px;
+  min-width: unset;
+}
 
 .footer-col p {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
 }
 
